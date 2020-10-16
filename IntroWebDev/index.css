@@ -1,0 +1,76 @@
+body {
+    margin: 0% 10%;
+    background-color: #cbdaf2;
+}
+
+#heading{
+    height: 12%;
+    font-family: serif;
+    background:url("https://cdn5.vectorstock.com/i/1000x1000/34/24/abstract-flower-white-texture-background-vector-13633424.jpg") repeat-x;
+    padding: 1%;
+    position: relative;
+}
+
+#message{
+    width: 40%;
+    clear: both;
+    border: 3px black solid;
+    background-color:white;
+    margin: 5% 28%;
+    overflow: hidden;
+    padding:2%;
+}
+
+b{
+    position: absolute;
+    margin: 3%;
+}
+
+#name{
+    position: absolute;
+    top: 40%;
+    left:145px;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    clear: both;
+}
+
+
+.item{
+    position: relative;
+    margin: 1%;
+}
+
+.menu{
+    height: 200px;
+    width:200px;
+    border: 1px black solid;
+}
+
+.qty{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#logo{
+    height:100px;
+    width:100px;
+    border: 3px black solid;
+    border-radius: 100px;
+    margin: 8px;
+}
+
+#table{
+    width:90%;
+    margin: 5%;
+    border: 2px black solid;
+    text-align: center;
+    background-color: aliceblue;
+    caption-side: top;
+}
+td{
+    padding: 10px;
+}

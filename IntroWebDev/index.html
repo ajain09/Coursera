@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header> 
+
+        <!--Heading of the assignment-->
+
+        <div id="heading">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/41F4byRbcvL._AC_SX425_.jpg" id="logo">
+        <section id="name">FAST FOOD JOINT</section>
+        </div>
+    </header>
+
+    <!--Description-->
+
+    <div id="message"><p style="text-align: center; color: red; font-weight: bold;">Message</p>This is a rudementary mock up of a restaurant page. The main conetnt of the 
+        page includes a menu and a feedback form. The menu consists of three divisions with and image of the food item, name, price and an input of type number to take
+        quantity from the user. At the end of the menu, Amount button will calculate and display the total cost. Feedback form is in a table layout for uniformity. The first 
+        three input fields are mandatory. Hope I met your expectations!
+    </div>
+
+    <!--Menu is displayed. Quantity can be selected-->
+
+    <div id="menuitems">
+        <ul>
+            <li>
+                <div class="item"><img class="menu" src="https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216054.jpg">
+                <b>Pizza<br>Price: Rs. 200</b>
+                <input type="number" min="0" max="5" placeholder="0" class="qty" id="qty1"></div>
+            </li>
+            <li>
+                <div class="item"><img class="menu" src="https://data.whicdn.com/images/334928704/original.jpg">
+                <b>French Fries<br>Price: Rs. 50</b>               
+                <input type="number" min="0" max="5" placeholder="0" class="qty" id="qty2"></div>
+            </li>
+            <li>
+                <div class="item"><img class="menu" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Scrum-Delicious-Burgers_EXPS_CHMZ19_824_B10_30_2b-1.jpg">
+                <b>Burger<br>Price: Rs. 100</b>          
+                <input type="number" min="0" max="5" placeholder="0" class="qty" id="qty3"></div>
+            </li>
+        </ul>
+    </div>
+
+    <!--Calculate and display amount of bill-->
+
+    <section style="float: right;"><button  onclick="calculate()" >Total amount </button>&nbsp;
+    <textarea id="bill"></textarea></section><br>
+    
+    <!--Feedback form-->
+    
+    <form id="feedbackform" onsubmit="return validateForm()">
+    <table id="table">
+        <caption style="margin: 1%; font-weight: bold;">FEEDBACK FORM</caption>
+        <tr style="font-weight:bold">
+        <td>User Details</td>
+        <td>Enter Name* : <input type="text" id="fname" required></td>
+        <td>Enter Password* : <input type="password" id="pass" required><br></td>
+        <td>Enter Birthdate* : <input type="date" id="date" required></td>
+        </tr>
+        <tr style="font-weight:bold">
+        <td>Rate us</td>
+        <td >Good</td>
+        <td>Average</td>
+        <td>Bad</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold">Menu</td>
+            <td><input type="radio" name="one"></td>
+            <td><input type="radio" name="one"></td>
+            <td><input type="radio" name="one"></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold">Price</td>
+            <td><input type="radio" name="two"></td>
+            <td><input type="radio" name="two"></td>
+            <td><input type="radio" name="two"></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold">Quality</td>
+            <td><input type="radio" name="three"></td>
+            <td><input type="radio" name="three"></td>
+            <td><input type="radio" name="three"></td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold">Overall</td>
+            <td><input type="radio" name="four"></td>
+            <td><input type="radio" name="four"></td>
+            <td><input type="radio" name="four"></td>
+        </tr>    
+        <tr>
+            <td></td>
+            <td><button type="reset">Reset</button></td>
+            <td><button type="submit" value="submit">Submit</button></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
