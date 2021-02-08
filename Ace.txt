@@ -1,0 +1,23 @@
+                                                                  Scientific      Common                     Max    Total Query   E    Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value  Ident  Len        Accession        
+
+Angiotensin-converting enzyme-related, isoform B [Drosophila...   Drosophila m... fruit fly       7227       1325   1325  100%  0.0    100.00 630        NP_001260258.1   
+metallopeptidase [Drosophila melanogaster]                        Drosophila m... fruit fly       7227       1319   1319  100%  0.0    99.52  630        CAA65632.1       
+Crystal structure of AnCE [Drosophila melanogaster]               Drosophila m... fruit fly       7227       652    652   93%   0.0    51.01  598        2X8Y_A           
+angiotensin converting enzyme, isoform C [Drosophila...           Drosophila m... fruit fly       7227       652    652   93%   0.0    51.01  615        NP_001285915.1   
+Crystal structure of AnCE-ramiprilat complex [Drosophila...       Drosophila m... fruit fly       7227       652    652   93%   0.0    51.01  599        2X92_A           
+A New Crystal Structure of the Drosophila melanogaster...         Drosophila m... fruit fly       7227       652    652   93%   0.0    51.01  598        5A2R_A           
+angiotensin converting enzyme precursor [Drosophila melanogaster] Drosophila m... fruit fly       7227       647    647   93%   0.0    50.68  615        AAB02171.1       
+putative metalloprotease; Method: conceptual translation...       Drosophila m... fruit fly       7227       645    645   93%   0.0    50.84  615        AAC46902.1       
+Crystal Structure of Drosophila AnCE [Drosophila melanogaster]    Drosophila m... fruit fly       7227       643    643   93%   0.0    50.51  607        1J36_A           
+Ance-3, isoform B [Drosophila melanogaster]                       Drosophila m... fruit fly       7227       464    464   88%   1e-153 40.07  844        NP_001033904.1   
+Ance-2 [Drosophila melanogaster]                                  Drosophila m... fruit fly       7227       275    275   96%   2e-83  29.26  611        NP_788042.1      
+Ance-5 [Drosophila melanogaster]                                  Drosophila m... fruit fly       7227       269    269   86%   4e-81  27.49  628        NP_573392.2      
+GH05754p [Drosophila melanogaster]                                Drosophila m... fruit fly       7227       268    268   86%   5e-81  27.49  628        AAL13524.1       
+Ance-4, isoform A [Drosophila melanogaster]                       Drosophila m... fruit fly       7227       197    197   95%   1e-54  25.29  609        NP_610442.2      
+RH49114p [Drosophila melanogaster]                                Drosophila m... fruit fly       7227       197    197   95%   2e-54  25.29  620        AAM51030.1       
+FI01963p [Drosophila melanogaster]                                Drosophila m... fruit fly       7227       196    196   95%   2e-54  25.29  629        ADN44553.1       
+Ance-4, isoform B [Drosophila melanogaster]                       Drosophila m... fruit fly       7227       190    190   79%   6e-53  27.04  514        NP_001286223.1   
+angiotensin converting enzyme homolog [Drosophila melanogaster... Drosophila m... fruit fly       7227       102    102   11%   3e-26  62.67  75         AAB28889.1       
+
+
